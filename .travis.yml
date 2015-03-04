@@ -12,7 +12,7 @@ mysql:
   encoding: utf8
 
 before_script:
-  - mysql -e 'create database charcoal_examples;use charcoal_examples;source examples/data/tests.sql'
+  - mysql -e 'create database if not exists charcoal_examples;use charcoal_examples;source examples/data/tests.sql;'
   - wget http://getcomposer.org/composer.phar
   - php composer.phar install
 
