@@ -6,9 +6,9 @@ Also serve as Test Cases for all functions.
 To run:
 - Clone this repository
   - `git clone https://github.com/mducharme/charcoal-examples`
-- Edit the `config/config.json` file to match your environment
-  - A valid MySQL database is required for some examples.
-  - The table "_charcoal_examples" will be created and deleted by the examples.
+- Run `install.sh`
+  - This will install composer
+  - This will also create a `charcoal_examples` database and load the example data set.
 - Run all scripts with `php run_all.php` or run the examples individually.
 - Read the code in the `examples/` folder.
 
