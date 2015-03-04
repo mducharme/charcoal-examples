@@ -1,0 +1,16 @@
+{
+	"properties":{
+		"id":{
+			"type":"id"
+		},
+		"test":{
+			"type":"string",
+			"min_length":"4",
+			"max_length":"25"
+		}
+	},
+	"data":{
+		"id":0,
+		"test":"World!"
+	}
+}

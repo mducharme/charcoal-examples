@@ -1,0 +1,20 @@
+{
+    "name": "locomotivemtl/charcoal-examples",
+    "description": "Charcoal Examples",
+    "keywords":["charcoal", "locomotive", "project", "boilerplate", "cms"],
+    "authors": [
+        {
+            "name": "Mathieu Ducharme",
+            "email": "mat@locomotive.ca"
+        }
+    ],
+
+    "require": {
+    	"locomotivemtl/charcoal-core":"@dev"
+    },
+    "repositories":[{
+        "type":"vcs",
+        "url":"https://github.com/locomotivemtl/charcoal-core"
+    }]
+    
+}

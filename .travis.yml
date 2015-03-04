@@ -1,0 +1,19 @@
+language: php
+php:
+  - 5.4
+  - 5.5
+  - 5.6
+  - hhvm
+  - nightly
+
+mysql:
+  database: charcoal_example
+  username: root
+  encoding: utf8
+
+before_script:
+  - mysql -e 'create database charcoal_examples;use charcoal_examples;source examples/data/tests.sql'
+  - wget http://getcomposer.org/composer.phar
+  - php composer.phar install
+
+script: php run_all.php
