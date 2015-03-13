@@ -7,7 +7,7 @@ include __DIR__.'/../vendor/autoload.php';
 
 // This example works because the metadata_path is set properly
 Charcoal::$config['metadata_path'] = [
-	__DIR__.'/data/'
+	__DIR__.'/data/',
 ];
 
 // Loading metadata automatically

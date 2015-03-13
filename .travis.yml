@@ -7,7 +7,7 @@ php:
   - nightly
 
 mysql:
-  database: charcoal_example
+  database: charcoal_examples
   username: root
   encoding: utf8
 

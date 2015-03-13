@@ -5,8 +5,8 @@
 		},
 		"test":{
 			"type":"string",
-			"min_length":"4",
-			"max_length":"25"
+			"min_length":4,
+			"max_length":2
 		}
 	},
 	"data":{
